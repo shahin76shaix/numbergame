@@ -49,6 +49,7 @@ const checkBtnLogic = function () {
 };
 
 const againBtnLogic = function () {
+  score = 20;
   numberBox.textContent = "?";
   message.textContent = "Start guessing...";
   document.querySelector(".header--title").textContent =
