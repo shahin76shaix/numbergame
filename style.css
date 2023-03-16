@@ -155,7 +155,7 @@ body {
   left: 0;
   height: 100vh;
   z-index: 2;
-  background-color: #464646d3;
+  background-color: #424242d3;
 }
 
 .module {
@@ -170,7 +170,7 @@ body {
   border-radius: 1.4rem;
   background-color: #fff;
   border: 0.7rem solid #2c2c2cf6;
-  box-shadow: 0.2rem 0.3rem 2rem 3rem #b6b6b6;
+  box-shadow: 0.2rem 0.3rem 6rem 3rem #b6b6b6;
 }
 .module-1--title {
   margin: 3rem auto;
@@ -188,4 +188,17 @@ body {
   border-radius: 7rem;
   display: block;
   width: 10rem;
+}
+
+.close-module {
+  outline: none;
+  border: none;
+  background-color: #00000000;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+.close-module-icon {
+  font-size: 2rem;
+  color: #242424;
 }
