@@ -284,4 +284,16 @@ body {
   .btn {
     margin-bottom: 1rem;
   }
+  .module--title {
+    font-size: 1.7rem;
+  }
+
+  .module-1 {
+    width: 70vw;
+  }
+
+  .module-2 {
+    height: 35vh;
+    width: 70vw;
+  }
 }
