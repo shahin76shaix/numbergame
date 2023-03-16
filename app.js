@@ -23,6 +23,7 @@ const checkBtnLogic = function () {
     message.textContent = "🥳 Yaaay! Correct Number";
     document.querySelector("body").style.backgroundImage =
       "linear-gradient(145deg, #47a044, #0c9400)";
+    numberBox.textContent = secretNumber;
 
     if (score > highscore) {
       highscore = score;
