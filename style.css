@@ -257,6 +257,9 @@ body {
 }
 
 @media (max-width: 48rem) {
+  .header {
+    height: 25vh;
+  }
   .main {
     flex-direction: column-reverse;
     justify-content: center;
@@ -266,17 +269,30 @@ body {
     font-size: 3.2rem;
   }
 
+  .header--number-box {
+    padding: 1rem 4rem;
+    margin-bottom: -4rem;
+  }
+
   .header--btn {
     padding: 0.7rem 1.2rem;
-    top: 85%;
+    top: 77%;
     left: 5%;
   }
 
   .main--info {
-    margin-top: -17rem;
+    margin-top: -10rem;
+    text-align: center;
     margin-bottom: 8rem;
   }
 
+  .main--info__score {
+    margin: 0;
+  }
+
+  .main--info__message {
+    margin: 0;
+  }
   .buttons {
     display: block;
     text-align: center;
