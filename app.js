@@ -53,6 +53,7 @@ const againBtnLogic = function () {
   message.textContent = "Start guessing...";
   document.querySelector(".header--title").textContent =
     "Guess The Number Dude!";
+  secretNumber = Math.trunc(Math.random() * 20 + 1);
   scoreDetect.textContent = score;
   guessValue.value = "";
   document.querySelector("body").style.backgroundImage =
